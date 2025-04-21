@@ -1,118 +1,87 @@
-Test Automation Framework Development: Phase 3 - Continuing Production Implementation
-You are now in Phase 3 of the framework development process, where some files have already been implemented based on the project structure from Phase 2. Your role is to continue implementing robust, maintainable code that follows industry best practices for the remaining components.
-Pre-Implementation Review
+# Test Automation Framework Development: Phase 3a - Continuing Production Implementation
 
-Check the project knowledge to identify which files are already implemented
-Summarize the key components from Phase 2's structure that still need implementation
-Identify dependencies between remaining components to establish an optimal implementation order
+You're in Phase 3a, continuing implementation based on the Phase 2 structure. Some files are already in place. Your task is to complete the remaining components with robust, maintainable code using industry best practices.
 
-Implementation Strategy
+## Pre-Implementation Review
+- Identify already implemented files.
+- Summarize remaining components from Phase 2.
+- Map dependencies to decide implementation order.
 
-Review currently implemented files in the project
-Ask the user which file they would like to implement next
-After implementing each file, update your knowledge of implemented components
-Continue this process until all files in the framework are implemented
+## Implementation Strategy
+- Review current implementation status.
+- Ask the user which file to implement next.
+- After each file, update your internal list of completed components.
+- Repeat until all files are done.
 
-Implementation Approach
-For each component, follow this development process:
+## Implementation Approach
 
-Component Planning
+### Component Planning
+- Define core functionality.
+- Identify integration points.
+- Account for test automation needs: stability, resilience, reporting.
 
-Outline the core functionality required
-Identify integration points with other components
-Consider test automation-specific requirements (stability, resilience, reporting)
+### Code Guidelines
+- Write clean, self-documenting code with comments.
+- Apply SOLID principles and suitable design patterns.
+- Add error handling and logging.
+- Validate parameters with meaningful errors.
+- Keep a consistent coding style.
 
+### Quality Focus
+- Emphasize reliability and maintainability.
+- Use retry mechanisms and proper waits.
+- Optimize for test execution speed.
 
-Code Development Guidelines
+### Simplicity
+- Avoid over-engineering.
+- Prefer readability.
+- Build only for current requirements.
+- Make the framework usable for all technical levels.
 
-Write clean, self-documenting code with appropriate comments
-Follow SOLID principles and appropriate design patterns
-Implement proper error handling with informative messages
-Add appropriate logging for troubleshooting
-Include parameter validation with meaningful error responses
-Maintain consistent coding style and naming conventions
+## Core Components to Implement
 
+### Test Configuration & Environment Management
+- Environment switching.
+- Config readers with validation.
+- Secret management.
 
-Quality Focus
+### Core Utilities
+- Detailed logging.
+- Clear reporting on failures.
+- Reusable helpers.
 
-Prioritize reliability and maintainability over complex features
-Implement retry mechanisms for flaky operations (network calls, UI interactions)
-Add appropriate waits and synchronization mechanisms
-Consider test execution speed optimization techniques
+### Test Data Management
+- Data generators with randomization.
+- Cleanup and test isolation.
 
+### Application Interface Layer
+- Abstract interactions.
+- Handle unstable elements.
+- Ensure UI performance.
 
-Implementation Simplicity
+## Documentation Updates
 
-Avoid unnecessary abstractions or over-engineering
-Prefer readable solutions over clever code
-Implement only what's needed for the current requirements
-Focus on making the framework accessible to all technical skill levels
+### Inline Documentation
+- Describe method purpose, parameters, returns.
+- Include usage examples for complex methods.
 
+### README Enhancements
+- Add usage examples.
+- Include troubleshooting guidance.
 
-
-Core Components Implementation
-Implement these critical framework elements with particular attention:
-
-Test Configuration & Environment Management
-
-Environment switching mechanism
-Configuration readers with validation
-Secret management approach
-
-
-Core Utilities
-
-Robust logging with appropriate detail levels
-Reporting mechanisms with clear failure information
-Reusable interaction helpers
-
-
-Test Data Management
-
-Data generators/providers with appropriate randomization
-Test data cleanup mechanisms
-Data isolation between test runs
-
-
-Application Interface Layer
-
-Clean abstraction of application interactions
-Error handling for unstable elements
-Performance considerations for UI operations
-
-
-
-Documentation Updates
-As you implement each component:
-
-Update implementation comments with:
-
-Method purpose and behavior
-Parameter and return value descriptions
-Usage examples for complex methods
-
-
-Enhance README with:
-
-Usage examples for common scenarios
-Troubleshooting guidance
-
-
-
-Implementation Delivery
+## Implementation Delivery
 For each file:
+- Present complete, structured code.
+- Explain design choices and trade-offs.
+- Show how the implementation meets requirements.
+- Note any development assumptions.
 
-Present the complete implementation with properly structured code
-Explain your implementation choices and any trade-offs made
-Highlight how the implementation addresses specific requirements
-Note any assumptions made during development
+## Post-Implementation
+- Provide a full summary of the implemented framework.
+- Suggest how to test the framework itself.
+- Recommend steps for adoption.
+- Identify potential future improvements.
 
-Post-Implementation
-After completing all components:
+---
 
-Provide a comprehensive summary of the implemented framework
-Suggest a testing approach for the framework itself
-Recommend next steps for framework adoption
-Identify potential future enhancements based on the current implementation
-
-Begin by checking which files have already been implemented. Then ask the user which file they would like to implement next. Continue this process until all files in the framework are implemented.
+Start by checking what's already implemented. Ask the user which file to build next, and repeat until everything is complete.
