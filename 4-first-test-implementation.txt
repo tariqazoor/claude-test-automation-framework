@@ -1,153 +1,104 @@
 # Test Automation Framework Development: Phase 4 - Reference Test Implementation
 
-You are now entering Phase 4 of the framework development process. Your task is to implement a comprehensive reference test that demonstrates the key capabilities of the test automation framework developed in previous phases. This test will serve as a template and guide for future test development.
+You're now in Phase 4. Your goal is to implement a complete reference test that showcases key framework features and serves as a model for future tests.
 
 ## Preparation
 
-1. Review the implemented framework from Phase 3, noting:
-   - Core utilities and helper functions
-   - Test architecture and design patterns
-   - Available test hooks and extension points
-   - Reporting and logging mechanisms
+1. Review the framework from Phase 3:
+   - Core utilities, test design, hooks, logging, reporting.
 
-2. Ask the user to identify:
-   - A representative test scenario to automate
-   - The type of test to implement (UI, API, integration, etc.)
-   - Priority framework features that should be demonstrated
-   - Any test data requirements or test environments needed
-   - The IDE they're using for development and test execution
+2. Ask the user:
+   - A representative scenario to automate.
+   - Test type (UI, API, integration).
+   - Features to highlight.
+   - Test data/env needs.
+   - Preferred IDE for development.
 
 ## Reference Test Design
 
-Create a well-structured test that demonstrates:
+Demonstrate these elements in the reference test:
 
 1. **Framework Initialization**
-   - Proper test setup and teardown patterns
-   - Configuration and environment management
-   - Test context initialization
+   - Setup/teardown, config, environment handling.
 
-2. **Test Data Handling**
-   - Test data generation or retrieval
-   - Data-driven testing capabilities
-   - Test data cleanup approaches
+2. **Test Data**
+   - Data generation, data-driven testing, cleanup.
 
-3. **Test Execution Patterns**
-   - Page object/service client usage
-   - Waits and synchronization mechanisms
-   - Error handling and recovery strategies
+3. **Execution Patterns**
+   - Page/service layer usage, waits, error handling.
 
-4. **Verification Techniques**
-   - Assertion strategies and patterns
-   - Soft vs. hard assertions
-   - Complex validation logic
+4. **Verifications**
+   - Assertions, validation logic.
 
-5. **Reporting Capabilities**
-   - Detailed test logging
-   - Screenshot/video capture for UI tests
-   - Test result documentation
+5. **Reporting**
+   - Logging, screenshots/videos, result capture.
 
 ## Implementation Approach
 
-1. **Best Practices Showcase**
-   - Implement the test following all framework conventions
-   - Include detailed comments explaining framework usage
-   - Demonstrate proper error handling and resilience
-   - Show appropriate logging throughout the test
+1. **Best Practices**
+   - Follow conventions, add detailed comments, use logging and error handling.
 
-2. **Documentation Focus**
-   - Add extensive comments explaining "why" not just "what"
-   - Include usage notes for complex framework features
-   - Document any workarounds or special techniques
+2. **Documentation**
+   - Explain "why" and "how" for key techniques.
 
 3. **Educational Structure**
-   - Organize the test in logical sections with explanatory headers
-   - Use variable names that clearly indicate purpose
-   - Include alternative approaches as commented code where appropriate
+   - Organize with headers, use clear variable names, include alternatives in comments.
 
 ## Deliverables
 
-Provide the following:
+1. **Complete Test Code**
+   - All files with setup, mock/test data, and execution instructions.
 
-1. **Complete Test Implementation**
-   - All necessary test files with full implementation
-   - Any required test data or mock configurations
-   - Setup and execution instructions
+2. **Walkthrough**
+   - Step-by-step guide with annotations and usage tips.
 
-2. **Walkthrough Documentation**
-   - Step-by-step explanation of the test
-   - Annotations highlighting framework features
-   - "How to" guidance for key patterns
+3. **Extension Snippets**
+   - Examples for similar tests and reusable templates.
 
-3. **Extension Examples**
-   - Brief code snippets showing how to create similar tests
-   - Patterns for handling common test variations
-   - Template structures for new tests
+## IDE-Specific Execution
 
-## IDE-Specific Test Execution Instructions
+Tailor instructions to the user’s IDE:
 
-Provide detailed execution instructions based on the user's IDE:
+### Visual Studio / VS Code
+- Test runner and launch config setup
+- Debugging and extensions
+- Test Explorer usage
 
-1. **Visual Studio / Visual Studio Code**
-   - Test runner configuration setup
-   - Launch configurations (.vscode/launch.json)
-   - Running tests using Test Explorer
-   - Debugging tests with breakpoints
-   - Extensions for test visualization (if applicable)
-   - Command palette commands for test execution
+### JetBrains IDEs (IntelliJ, PyCharm, etc.)
+- Run/debug setup
+- Gutter icons, shortcuts, test panel
+- Coverage and results navigation
 
-2. **JetBrains IDEs (IntelliJ IDEA, WebStorm, PyCharm, etc.)**
-   - Run configuration setup
-   - Gutter icons for test execution
-   - Keyboard shortcuts for running tests
-   - Debug configuration for tests
-   - Test results panel navigation
-   - Coverage visualization (if applicable)
+### Eclipse
+- Test run/debug setup
+- Breakpoints and results view
 
-3. **Eclipse**
-   - Test runner setup and configuration
-   - Run As > Test configuration
-   - Debug test configuration
-   - Test results view usage
-   - Breakpoint setup for test debugging
+### Command Line
+- Test runner usage
+- Env variable setup
+- Run specific tests/suites, debug flags
 
-4. **Command Line Execution**
-   - Test runner commands with examples
-   - Environment variable configuration
-   - Running specific tests vs. test suites
-   - Output interpretation
-   - Debugging options
-
-5. **CI/CD Integration**
-   - Example pipeline configurations (Jenkins, GitHub Actions, etc.)
-   - Test report generation and publishing
-   - Test failure handling in automated environments
+### CI/CD Integration
+- Pipeline examples
+- Report publishing
+- Handling failures
 
 ## Results Interpretation
 
-1. **Test Report Navigation**
-   - How to access and interpret test reports
-   - Understanding test logs
-   - Analyzing failure points
-   - Screenshot/artifact review for UI tests
+1. **Test Report**
+   - Access and read reports, logs, failures, and artifacts.
 
-2. **Troubleshooting Common Issues**
-   - Timing and synchronization problems
-   - Test data issues
-   - Environment-specific failures
-   - Dependency problems
+2. **Troubleshooting**
+   - Address sync, data, environment, and dependency issues.
 
-## Future Test Development Guide
+## Guide for Future Tests
 
-Conclude with:
-
-1. **Test Development Patterns**
-   - Recommended approach for creating new tests
-   - Test organization and naming strategies
-   - Test code reuse patterns
+1. **Development Patterns**
+   - Approaches for new tests, naming, reuse strategies.
 
 2. **Test Suite Organization**
-   - How to structure test suites
-   - Test categorization and tagging
-   - Parallel test execution strategies
+   - Structure, tagging, and parallel execution tips.
 
-Begin by acknowledging you're starting Phase 4 and asking the user about their IDE preference and a representative test scenario that would make a good demonstration. Explain that this test will serve as a reference implementation for the team to follow when creating additional automated tests.
+---
+
+Start Phase 4 by asking the user for their IDE and a test scenario that represents the framework well. Explain this test will be the reference model for future automated tests.
